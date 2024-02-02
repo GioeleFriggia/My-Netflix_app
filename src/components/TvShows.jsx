@@ -28,10 +28,10 @@ const TvShows = () => {
   }, []);
 
   return (
-    <div className="container-fluid px-4">
+    <div className="container-fluid px-0 py-3">
       <div className="d-flex justify-content-between">
         <div className="d-flex">
-          <h2 className="mb-4">TV Shows</h2>
+          <h2 className="mb-5 ms-2">TV Shows</h2>{" "}
           {loading ? (
             <div className="spinner-border text-light" role="status">
               <span className="visually-hidden">Loading...</span>
