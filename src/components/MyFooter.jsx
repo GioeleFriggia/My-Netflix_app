@@ -2,11 +2,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-light">
-      <div className="row justify-content-center mt-5">
+    <footer className="bg-dark text-light mt-5">
+      <div className="row justify-content-center">
         <div className="col col-6">
           <div className="row">
-            <div className="col mb-2">{/* Rimuovi le icone social */}</div>
+            <div className="col mb-2"></div>
           </div>
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-4">
             <div className="col">

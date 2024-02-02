@@ -33,16 +33,16 @@ const NavigationButton = styled.div`
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  background-color: transparent; /* Cambiato da "white" a "transparent" */
+  background-color: transparent; 
   display: flex;
   align-items: center;
   justify-content: center;
-  position: fixed; /* Cambiato da "absolute" a "fixed" */
+  position: fixed; 
   top: 50%;
   margin-left: 50px;
   margin-right:50px
   transform: translateY(-50%);
-  z-index: 1; /* Aggiunto z-index per sovrapporre i bottoni sopra alla galleria */
+  z-index: 1; 
 `;
 
 const LeftNavigationButton = styled(NavigationButton)`
@@ -161,14 +161,14 @@ function MovieGalleryComponent() {
       <LeftNavigationButton
         onClick={handlePrevClick}
         isTransparent={scrollPosition === 0}
-        style={{ left: 10 }} // Aggiunto stile per posizionare a sinistra con margine
+        style={{ left: 10 }}
       >
         {"<"}
       </LeftNavigationButton>
       <RightNavigationButton
         onClick={handleNextClick}
         isTransparent={scrollPosition === movies[movieSagas[0]].length - 1}
-        style={{ right: 10 }} // Aggiunto stile per posizionare a destra con margine
+        style={{ right: 10 }}
       >
         {">"}
       </RightNavigationButton>

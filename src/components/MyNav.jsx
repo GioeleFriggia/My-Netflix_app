@@ -21,7 +21,6 @@ const MyNavbar = () => (
           <Nav.Link href="#">TV Shows</Nav.Link>
           <Nav.Link href="#">Movies</Nav.Link>
           <Nav.Link href="#">New & Popular</Nav.Link>
-          {/* Aggiungi altri link secondo necessità */}
         </Nav>
       </Navbar.Collapse>
     </Container>
